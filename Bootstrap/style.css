@@ -1,0 +1,59 @@
+/* Home page */
+
+.card {
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    padding: 5px;
+    color: #ff751a;
+}
+
+.card p {
+    padding: 2px;
+    text-align: center;
+}
+
+.container1 {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+h3 {
+    padding-top: 5px;
+    text-align: center;
+}
+
+li {
+    padding: 2px;
+    list-style-type: none;
+}
+
+/* Stanley cups page */
+
+.stanleycups {
+    padding: 10px;
+    text-align: center;
+}
+
+#bold {
+    font-weight: bold;
+}
+
+/* History page */
+
+[class*="col"] {
+    border: 1px solid #ff751a;
+}
+
+.button {
+    margin: 5px;
+    text-align: center;
+}
+
+/* DARKMODE */
+.dark {
+    background-color: #222;
+    color: #e6e6e6;
+}
