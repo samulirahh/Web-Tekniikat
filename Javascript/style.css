@@ -1,0 +1,103 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+header{
+    width: 100%;
+    height: 100%;
+    background-color: gold;
+}
+
+header h1 {
+    margin: 0;
+}
+
+#box {
+    width: 300px;
+    height: 300px;
+    border: 10px solid black;
+    margin: 100px auto 0;
+    cursor: pointer;
+}
+
+#box h1 {
+    margin-top: 41%;
+    text-align: center;
+}
+
+#box p {
+    text-align: center;
+}
+
+.buttons {
+    padding: 5px;
+    padding-left: 5px;
+    text-align: center;
+}
+
+button {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    width: 200px;
+    margin: 2px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.shapeshifter {
+    border-radius: 50%;
+}
+
+.animation {
+    animation-name: rainbow;
+    animation-iteration-count: infinite;
+    animation-duration: 1.4s;
+}
+
+@keyframes rainbow {
+    0%   {background-color: red;}
+    15%  {background-color: orange;}
+    30%  {background-color: yellow;}
+    45%  {background-color: lime;}
+    60% {background-color: blue;}
+    75% {background-color: purple;}
+    90% {background-color: plum;}
+    100% {background-color: red;}
+}
+
+.joker {
+    border: 10px solid black;
+    text-align: center;
+    width: 280px;
+    height: 100px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.joke {
+    margin-top: 15px;
+}
+
+.footer {
+    position: absolute;
+    border-top: 1px solid black;
+    bottom: 0px;
+    width: 100%;
+    background-color: gold;
+}
+
+.footer p {
+    margin: 0;
+    float: left;
+}
+
+.date {
+    margin: 0;
+    float: right;
+}
