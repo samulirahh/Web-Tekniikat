@@ -1,0 +1,14 @@
+COLORS:
+
+Light pink: #FCB0B3 - Used as the secondary color.
+
+Dark pink: #E29C9E - Used as the main background color.
+
+palette from coolors color palette generator.
+https://coolors.co/
+
+FONTS:
+
+Logo font - https://fonts.google.com/specimen/Grape+Nuts?category=Handwriting
+
+Main font - https://fonts.google.com/specimen/Playfair+Display
